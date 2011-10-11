@@ -1,0 +1,46 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer:
+- Give the user suggestions when something is going wrong. The error messages are too cryptic right now.
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer:
+- Out of memory exceptions, also causing the repository to corrupt.
+
+3) Where is the biggest improvement that could be made?
+   
+Answer:
+- Error messages that actually show what is wrong (QA Analysis failure telling me to look at the server log, then the server log shows me a nice stacktrace I don't understand without knowledge of JBOSS BRMS' insides)
+- Error messages that suggest how to solve the problem.
+- Show a "Would you like to save your changes?" window when closing a tab.
+- Make it work correctly in Internet Explorer.
+
+4) How was the documentation able to help?
+   
+Answer:
+- No, I wasn't really aware there was any documentation.
+
+5) Should their be self help, and what form would it take?
+   
+Answer:
+- I don't really understand this question.
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer:
+- Yes, feedback could be improved. Now you will get an error that isn't really clear. Errors should suggest how to solve the problem, not only show the problem.
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer:
+- Modify a fact that inserted using the guided rule editor. I was able to solve this using a DSL, but that is way too cumbersome in some situations.
+
+8) What was the biggest source of frustration?
+
+Answer:
+- Losing my repository... but, I got it back by exporting and importing again.
+- Not knowing what I did wrong in DSLs. This took too much time to figure out (not good for production environments).

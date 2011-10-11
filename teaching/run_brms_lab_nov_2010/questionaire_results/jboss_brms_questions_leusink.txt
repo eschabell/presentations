@@ -1,0 +1,41 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer: Easier discoverability of the manual pages related to what I???m currently doing.
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: The biggest problem I had was my own fault but I had a lot of trouble making sure the business rules did not cause an infinite loop.
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer: Better exception handing; instead of showing a message like "an error happed, look at the log at the server", please try to show me a message explaining what error occurred, what might be the problem and how it can be fixed.
+
+
+4) How was the documentation able to help?
+   
+Answer: The documentation on redhat.com was quite good. It showed in a clear manner how to create my own business rules.
+
+
+5) Should there be self help, and what form would it take?
+   
+Answer: I must say I haven't really looked at the current help system in JBoss BRMS but if there isn't maybe a contextual help link could help. For example, If BRMS sees that I'm trying to create a test case, I can click the help link to automatically open the relevant page in the redhat documentation.
+
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer: I did use the testing features and I did like them but the annoying thing about them was that when you ran the test, you can make changes to the test afterwards click the save button, but those changes would not actually be saved.
+Another thing was that I had some trouble comparing dates using the test tool.
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer: I didn???t have any expectations of the software that were not fulfilled.
+
+
+8) What was the biggest source of frustration?
+
+Answer: "kill -9"-ing java multiple times because it was using 100% CPU again, not Drool's fault, I know

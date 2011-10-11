@@ -1,0 +1,41 @@
+Title
+-----
+Pioneering a path to the future with JBoss Business Process Management 
+
+Abstact
+-------
+As one of the top four Dutch financial institutions, SNS Bank in the
+Netherlands made a strategic decision to use technology to empower its
+customers online by fully automating its service and selling channels. In order
+to effectively move towards a full-scale Straight Through Processing (STP)
+experience, SNS Bank chose to achieve its goals by making use of Open Source
+Software, Service Oriented Architecture (SOA), and BPM.
+
+This session will take us through the history of the SNS Bank, laying the
+groundwork as to their vision and strategy. This will explain the move from a
+traditional bank to a modern Internet bank providing innovative selling
+channels. We will walk through the existing architecture, detailing the impact
+this move has had on existing IT systems and the migration efforts to position
+open source solutions. 
+
+It goes without saying that these moves have had an effect on both the business
+departments and customers from the SNS Bank. The major change from branch
+offices to Internet selling channels required a new focus for the business
+departments to be able to provide effective services to her customers.
+
+Finally, a close look at the lessons learned along the way will provide you
+with insight into a working open source STP BPM solution that is cost effective,
+reliable, flexible, and tailored to evolve with SNS Bank into the future. 
+
+
+Slides overview
+---------------
+
+- What is SNS Bank?
+- Vision / Strategy (DIY - STP)
+- Architecture overview
+- Impact on the IT systems (24/7)
+- Impact on the business departments (branches -> shops)
+- Impact on the customers (branches -> internet)
+- Lessons learned
+- Conclusions: business process automation is more than just an IT trick!

@@ -1,0 +1,38 @@
+Welcome, you should have a folder brms_lab in your home directory that contains
+a JBoss EAP 4.3.0 installation already prepared with the JBoss BRMS 5.0 product.
+Just follow the instructions below for the last lab session and good luck!
+
+========================================================================
+Before you can run the software installed on your accounts you need to login
+on the Fedora Linux machines, reboot and choose Fedora from the boot menu if
+you are in Windows.
+
+1) Start the JBoss BRMS server:
+
+ - brms_lab/jboss-eap-4.3/jboss-as/bin/run.sh
+
+2) Login to JBoss BRMS at: 
+
+ - http://localhost:8080/jboss-brms 
+ - user: admin
+ - pass: admin
+
+3) Use all the experience you have gathered in the first two labs to implement
+a new knowledge base with the exam regelment or library regulations as your
+domain. Make use of the courses first assignment results (Rulespeak) to create
+the following:
+
+ - package
+ - category / categories
+ - rules
+ - tests
+ - no DSL creation required but possible extra credit for a working DSL!
+
+Grade:
+=====
+I will grade based on how complete the knowledge base is. The final lab day
+will be used to finish up this assignment and allow you to show me your
+results for grading.
+
+Eric D. Schabell
+erics@redhat.com

@@ -1,0 +1,69 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer: Some technical problems like After archiving an item not being able to
+delete it permanently from the archived items due to technical problems (I do
+not remember the error message that appeared in the screen)and thus unable to
+use the same name for an item that you have already deleted Losing saved data.
+The appearance in the screen of an OK input text box used previously.
+Unexpected error messages.
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: The loss of the saved data (the whole package and the business rules
+disappeared) after logging out.
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer: Apart from correcting the aforementioned technical problems, some user
+interface improvements could also help. Grouping for example the opened tabs
+based on the category of the items (rules, tests etc) or being able to modify
+an item from "view source" and save the changes (now you can only view the
+source code) screen when having crated them with the guided editor.
+
+
+
+4) How was the documentation able to help?
+   
+Answer: I did not use the documentation widely but when did it was very helpful.
+
+
+5) Should there be self help, and what form would it take?
+   
+Answer: An online training that could cover some basic functionalities of the
+tool could help as well. Each lesson could first provide a theoretical approach
+to a concept, then a small example and a demo with the corresponding
+functionality of the tool and finally an exercise that the user could do by
+him. I guess that this training could be very similar to the practical lessons
+of our course.
+
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer: I did use the "test scenarios" and the run "Test scenarios in package"
+options. I found the user interface very friendly. The green and red coverage
+when executing a test scenario that showed success and failure are very
+helpful. I did also like in «Test scenarios in package" the provision of
+information about the percentage of the rules that I had created rules for and
+again the percentage of the successful and failed rules with green and red
+colors.
+
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer: Right- click on the items (edit, delete, rename, copy etc all in one
+and in separate menus), pop-up help texts, when copying an item automatically
+the new item to be opened and not source item (the one copied).
+
+
+8) What was the biggest source of frustration?
+
+Answer: The frequent appearance of a error message (Sorry! A technical error
+has occured! Please contact your administrator!).It occasionally appeared
+without changing anything at all in the packages!
+
+
+

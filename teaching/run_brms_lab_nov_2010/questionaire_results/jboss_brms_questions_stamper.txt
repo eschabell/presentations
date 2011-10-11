@@ -1,0 +1,65 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer:
+The interface: It would be a good idea to make a 'wizard' that guides a user through the creation of a model,rule, drl (etc.). This wizard should make use of simple (almost cartoon like) buttons, explanations of things that are added (for instance an explanation for the addition of a constraint of a certain type). 
+
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer:
+When I encountered problems (errors), the error message gave me little feedback or hints to the source of the problem. Only by personally 'investigating' the issue, I could find out the cause of (some of my) problems
+
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer:
+(derived from the answers 1 and 2): the interface and the feedback/messages when errors occur
+
+
+
+4) How was the documentation able to help?
+   
+Answer:
+Sorry, I did not consult the documentation when using the tool (was able to find out most things by myself eventually or through fellow students)
+
+
+
+5) Should their be self help, and what form would it take?
+   
+Answer:
+Ehm.. maybe it's possible to visibly show, as soon as an error occurs, where the error occurs and why. Or add a check list of common things that can be forgotten or common mistakes resulting in (typical) errors
+
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer:
+I used the test package (or analysis) and test scenario options from the QA tab/menu. The test scenario's worked best for me (green bars, percentages and summary info were useful). The test package option gave error info, but this wasn't presented in a easily understandable format (like test scenario's)
+
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer:
+make an explicit link between different fact types (for instance, in my library model, I wanted to create an 'AND' consisting of information fields from different fact types; this was implicitly possible by adding all fact types to a rule, but it didn't say something like : When there is a library with (blabla) AND there is a Library Item with (bla) AND ... ) 
+
+Also, in the model creation (when adding fact types), if I would want to select a field from another fact type (for instance, in my RuleSpeak assignment model, I have a link between Item_on_loan (which is an objectified fact type) and Date that represents the return Date fact, but Date is also involved in the objectified fact type). These things are not possible to add in the declarative model in JBOSS BRMS. 
+
+Or, to be more clear, here's another example: a library item involved in fact type Item_on_loan should be the same library item involved in 'Incident'. I want to be able to use the same field (in this case, it would be something like library_item.name) in both the Item_on_loan and Incident fact type. However, it is only possible to add a field of type [fact type] so that would be a field of type 'Incident' to be added to a Item_on_loan. 
+
+NOTE: it's also not possible to add a field with a fact type as it's type, if that fact type is declared later on in the model. so if this is the case:
+- fact type 'Library'
+- fact type 'Library_item'
+
+then library cannot have a field that is of type 'library_item'.. This makes it difficult to translate an ORM or UML diagram to a declarative model in JBOSS BRMS. 
+
+
+
+8) What was the biggest source of frustration?
+
+Answer:
+lack of detailed feedback information when encountering errors: it is likely that (in the beginning) a user will make (many) mistakes or input error prone values, having to find out what is wrong by myself, when I'm not yet an experienced user is very frustrating for me personally
+

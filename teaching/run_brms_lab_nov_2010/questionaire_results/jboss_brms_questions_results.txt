@@ -1,0 +1,375 @@
+The final task for the students was to provide answers to the following
+questions. Each question is followed by anonymous answers:
+========================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer: Auto save or at least it should notify me if am about to close unsaved
+tabs.
+
+Answer: Some technical problems like After archiving an item not being able to
+delete it permanently from the archived items due to technical problems (I do
+not remember the error message that appeared in the screen)and thus unable to
+use the same name for an item that you have already deleted Losing saved data.
+The appearance in the screen of an OK input text box used previously.
+Unexpected error messages.
+
+Answer: I would add more explanatory buttons, in stead of having to click on
+items to add facts.
+
+Answer: Less clicking, when you have to fill in a literal value for a
+constraint you have to click to much.
+
+Answer: Give the user suggestions when something is going wrong. The error
+messages are too cryptic right now.
+
+Answer: Easier discoverability of the manual pages related to what I'm
+currently doing.
+
+Answer: I would make sure it would be more Robust: less errors, no server
+crashes. No missing repositories, no weird error messages that turn out to be
+unsupportedoperationexception in the terminal window. Encountering a lot of
+problems made the experience of working with it really unpleasant. 
+
+Answer: The interface: It would be a good idea to make a 'wizard' that guides a
+user through the creation of a model,rule, drl (etc.). This wizard should make
+use of simple (almost cartoon like) buttons, explanations of things that are
+added (for instance an explanation for the addition of a constraint of a
+certain type). 
+
+Answer: When writing DSL, the code was getting successfully validated, even in
+cases it was not absolutely correct (e.g. extra line). This, was later leading
+to problems when creating and testing the rules.  So, i think that especially
+in DSL cases, validation should take into consideration such issues.
+
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: It doesn't warn me if I close tabs that I haven't saved. By all means
+this could be a hassle especially when you are managing thousand rules and
+sometime open more than 10 tabs at the same time and somehow you've lost tracks
+whether you have saved the work on each tab.
+
+Answer: Lost work, mostly due to changes not being persisted to the database
+and ambiguous error messages (i.e. when leaving the 'dialect mvel' bit out of a
+rule)
+
+Answer: The loss of the saved data (the whole package and the business rules
+disappeared) after logging out.
+
+Answer: I forgot to save things sometimes which caused a bit of confusion when
+testing rules. Loops were also a problem.
+
+Answer: You couldn't edit the source, and rules that caused firing each other
+(thus creating a loop).
+
+Answer: Out of memory exceptions, also causing the repository to corrupt.
+
+Answer: The biggest problem I had was my own fault but I had a lot of trouble
+making sure the business rules did not cause an infinite loop.
+
+Answer: There were certainly some big problems, however I do not know to which
+extent they were related to the installation. 
+- The repository sometimes did not restore from the previous time
+- At a certain point the whole server broke and after starting it up again
+  could not get it to work again. 
+- At the end a problem appeared with accessing tests. Which I could not
+  determine the cause off.  All this made me do a lot of extra unnecessary
+  work. 
+
+Answer: When I encountered problems (errors), the error message gave me little
+feedback or hints to the source of the problem. Only by personally
+'investigating' the issue, I could find out the cause of (some of my) problems
+
+Answer: Validation of rules and models sometimes was not successful, and after
+deleting and recreating exactly the same rules/models it could be successfully
+validated.
+
+
+
+3)  Where is the biggest improvement that could be made?
+   
+Answer: Assume that I am opening the Model tab and one of rules. I edited types
+in the Model and saved it, but the changes couldn't be seen immidiately from
+the rule I am opening unless I close the rule and open it again.
+
+Answer: Rather than forcing a user to choose between a design based rule or a
+text based rule and making him stick to his decision, you could make these
+interchangeable 'views'. Much like a HTML designer or Visual Studio has a
+design and a code view.
+
+Answer: Apart from correcting the aforementioned technical problems, some user
+interface improvements could also help. Grouping for example the opened tabs
+based on the category of the items (rules, tests etc) or being able to modify
+an item from "view source" and save the changes (now you can only view the
+source code) screen when having crated them with the guided editor.
+
+Answer: Automatically save on closing of a tab (or at least a preference that
+enables this).
+
+Answer:
+- Error messages that actually show what is wrong (QA Analysis failure telling
+  me to look at the server log, then the server log shows me a nice stacktrace
+  I don't understand without knowledge of JBOSS BRMS' insides)
+- Error messages that suggest how to solve the problem.
+- Show a "Would you like to save your changes?" window when closing a tab.
+- Make it work correctly in Internet Explorer.
+
+Answer: Better exception handing; instead of showing a message like "an error
+happed, look at the log at the server", please try to show me a message
+explaining what error occurred, what might be the problem and how it can be
+fixed.
+
+Answer: Improvement of the user interaction, making it smoother to work with.
+At the moment for example:
+- text boxes are left on the screen when changing from tab if they're not
+  filled in. 
+- a tab is not reloaded when it is already opened and it is selected in the
+  left menu. 
+- only with create new in the left menu can a new rule be made, not by
+  selecting the business rules asset list. 
+- filling in a Boolean value has to be done by hand.  These are all things that
+  can annoy the business people that software is intended for. 
+
+Answer: the interface and the feedback/messages when errors occur
+
+Answer: More detailed validation of the DSL schema. In case of syntax error a
+brief description should immediately be provided, instead of the  'Contact
+Administrator' message when running the test scenarios.
+
+
+
+4) How was the documentation able to help?
+   
+Answer: I didn't look to much for the documentation, but I presume it's
+documented well.
+
+Answer: It was ok. Google was my friend during the assignment.
+
+Answer: I did not use the documentation widely but when did it was very
+helpful.
+
+Answer: I tried to find some information about the DSL in the documentation but
+couldn't find anything helpful.
+
+Answer: The documentation on redhat.com was quite good. It showed in a clear
+manner how to create my own business rules.
+
+Answer: On the internet I could find some useful documentation. They helped me
+a lot.Especially in text based rule creation and ISL. On forums I also found
+some solutions to problems, although not every problem had a satisfying answer,
+or remained basically unanswered. 
+
+Answer: Sorry, I did not consult the documentation when using the tool (was
+able to find out most things by myself eventually or through fellow students)
+
+Answer: Documentation was quite helpful(especially screenshots), though, it was
+not mentioning the problems that arised.
+
+
+
+5) Should their be self help, and what form would it take?
+   
+Answer: Yes there should (but since I explicitly helped myself my opinion might
+be biased). Since this a popular and well developed product any capable
+individual should be able to install and use it on its own with the
+documentation provided.
+
+Answer: An online training that could cover some basic functionalities of the
+tool could help as well. Each lesson could first provide a theoretical approach
+to a concept, then a small example and a demo with the corresponding
+functionality of the tool and finally an exercise that the user could do by
+him. I guess that this training could be very similar to the practical lessons
+of our course.
+
+Answer: A simple manual that shows screenshots on how to create the rules. It
+took a while to figure this out, and that would have helped.
+
+Answer: I must say I haven't really looked at the current help system in JBoss
+BRMS but if there isn't maybe a contextual help link could help. For example,
+If BRMS sees that I'm trying to create a test case, I can click the help link
+to automatically open the relevant page in the redhat documentation.
+
+Answer: Instead of self help the error messages should be clearer and give the
+user some precise pointers where the problem is. At the moment most error
+messages are not clear enough. To solve any problem I often used trial and
+error instead of really having a clue what was actually wrong.  An error
+message as: "does not support method call is Allowed(Object object,
+InternalWorkingMemory workingMemoiry)" really gives me barely any information
+where to look for the problem. 
+
+Answer: Ehm.. maybe it's possible to visibly show, as soon as an error occurs,
+where the error occurs and why. Or add a check list of common things that can
+be forgotten or common mistakes resulting in (typical) errors
+
+Answer: A forum could be helpful in solving problems and exchanging opinions.
+
+
+
+6) Did you use any of the testing features, how did you like them, what could
+   be improved?
+
+Answer: Yes, the testing feature is awesome! It couldn't be better.
+
+Answer: This is a great feature and should definitely be part of any rule based
+system. Improvements? In Test Scenario's, any changes made AFTER running a test
+will not be saved (even when repeatedly pressing the Save button).
+
+Answer: I did use the "test scenarios" and the run "Test scenarios in package"
+options. I found the user interface very friendly. The green and red coverage
+when executing a test scenario that showed success and failure are very
+helpful. I did also like in «Test scenarios in package" the provision of
+information about the percentage of the rules that I had created rules for and
+again the percentage of the successful and failed rules with green and red
+colors.
+
+Answer: It is not clear what the verify does, because sometimes a rule passes
+the verify, but gives an error on something else.
+
+Answer: Yes, feedback could be improved. Now you will get an error that isn't
+really clear. Errors should suggest how to solve the problem, not only show the
+problem.
+
+Answer: I did use the testing features and I did like them but the annoying
+thing about them was that when you ran the test, you can make changes to the
+test afterwards click the save button, but those changes would not actually be
+saved.  Another thing was that I had some trouble comparing dates using the
+test tool.
+
+Answer: Yes I have used the testing analysis and the QA tool. These were really
+helpful. However the QA tool was not always working so well, refer for this the
+earlier comment about robustness. 
+
+Answer: I used the test package (or analysis) and test scenario options from
+the QA tab/menu. The test scenario's worked best for me (green bars,
+percentages and summary info were useful). The test package option gave error
+info, but this wasn't presented in a easily understandable format (like test
+scenario's)
+
+Answer: Yes, we made use of the test scenarios. It was quite easy to understand
+how they work.
+
+
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer: Expected to be able to do this but couldn't -> Assume that I am opening
+the Model tab and one of rules. I edited types in the Model and saved it, but
+the changes couldn't be seen immidiately from the rule I am opening unless I
+close the rule and open it again.
+
+Answer: It's a nice feature that you can do Test Scenario's in a GUI, but a
+text based solution would be nice too. In other proofing tools I'm used to
+provide an initial set of facts as a text file.
+
+Answer: Right- click on the items (edit, delete, rename, copy etc all in one
+and in separate menus), pop-up help texts, when copying an item automatically
+the new item to be opened and not source item (the one copied).
+
+Answer: I expected that more complex rules could be made, but sometimes I had
+to split up rules or had to leave them out because they were too complicated.
+
+Answer: In a model to reference to every object (now, you can only reference to
+earlier objects)
+
+Answer: Modify a fact that inserted using the guided rule editor. I was able to
+solve this using a DSL, but that is way too cumbersome in some situations.
+
+Answer: I didn't have any expectations of the software that were not fulfilled.
+
+Answer: I would have expected the business rules that should be entered in the
+tool to represent the rulespeak form to a greater extent. At the moment things
+that should be done in rulespeak: like 'must' and 'may' do not come back in the
+software.  
+
+Answer: make an explicit link between different fact types (for instance, in my
+library model, I wanted to create an 'AND' consisting of information fields
+from different fact types; this was implicitly possible by adding all fact
+types to a rule, but it didn't say something like : When there is a library
+with (blabla) AND there is a Library Item with (bla) AND ... ) 
+
+Also, in the model creation (when adding fact types), if I would want to select
+a field from another fact type (for instance, in my RuleSpeak assignment model,
+I have a link between Item_on_loan (which is an objectified fact type) and Date
+that represents the return Date fact, but Date is also involved in the
+objectified fact type). These things are not possible to add in the declarative
+model in JBOSS BRMS. 
+
+Or, to be more clear, here's another example: a library item involved in fact
+type Item_on_loan should be the same library item involved in 'Incident'. I
+want to be able to use the same field (in this case, it would be something like
+library_item.name) in both the Item_on_loan and Incident fact type. However, it
+is only possible to add a field of type [fact type] so that would be a field of
+type 'Incident' to be added to a Item_on_loan. 
+
+NOTE: it's also not possible to add a field with a fact type as it's type, if
+that fact type is declared later on in the model. so if this is the case:
+- fact type 'Library'
+- fact type 'Library_item'
+then library cannot have a field that is of type 'library_item'.. This makes it
+difficult to translate an ORM or UML diagram to a declarative model in JBOSS
+BRMS. 
+
+Answer: To delete rule and test scenarios more easily (e.g select it and press
+the delete button). Not having to archive them and then delete them from the
+administration section.
+
+
+
+8) What was the biggest source of frustration?
+
+Answer: It doesn't warn me if I close tabs that I haven't saved. By all means
+this could be a hassle especially when you are managing thousand rules and
+sometime open more than 10 tabs at the same time and somehow you've lost tracks
+whether you have saved the work on each tab.
+
+Answer: Lost work, definitely!!
+
+Answer: The frequent appearance of a error message (Sorry! A technical error
+has occured! Please contact your administrator!).It occasionally appeared
+without changing anything at all in the packages!
+
+Answer: Failure to save, private property error when you forget to write
+'dialect "mvel"'
+
+Answer:
+- Losing my repository... but, I got it back by exporting and importing again.
+- Not knowing what I did wrong in DSLs. This took too much time to figure out
+  (not good for production environments).
+
+Answer: "kill -9"-ing java multiple times because it was using 100% CPU again,
+not Drool's fault, I know
+
+Answer: Besides the errors popping up, the fact that there were a lot of things
+in it that simply do not make sense at the beginning. (certainly not to the
+business users) and are things one ought to know before using it.  examples of
+this are: 
+- The extra enter on the end of a DSL
+- Putting the right dialect
+
+Answer: De tool is best ok, maar er zijn wel wat punten die misschien
+aangepast/veranderd/verbeterd kunnen worden.
+- Zo vergt het invoeren van een model met een simpele set regels al enorm veel
+  klikken.
+- De vele pop-ups kunnen misschien vermeden worden door wat meer met drop-down
+  menu's te werken.
+- Het is erg statisch: het werkt van boven naar beneden en als je boven iets
+  van beneden nodig hebt, kan dat niet. Daarbij kun je de volgorde van de
+  dingen niet aanpassen, dus zul je iets slims moeten bedenken of opnieuw
+  moeten beginnen.
+- Ik zie het voordeel niet van dat dit programma web-based is. Waarom geen
+  stand alone proggie?
+- De tabs van de verschillende rules enzo beslaan het hele scherm, waardoor je
+  steeds op de andere tabs moet klikken om die te bekijken. Meerdere tabs
+  tegelijk op het scherm zou handig zijn.
+
+Answer: lack of detailed feedback information when encountering errors: it is
+likely that (in the beginning) a user will make (many) mistakes or input error
+prone values, having to find out what is wrong by myself, when I'm not yet an
+experienced user is very frustrating for me personally
+
+Answer: Having to find out why the 'Contact Administrator' message was
+appearing when running the test scenarios as well as trying to figure out what
+was meant by the warning descriptions in the QA analysis section.
+

@@ -1,0 +1,78 @@
+Welcome, you should have a folder brms_lab in your home directory that contains
+a JBoss EAP 4.3.0 installation already prepared with the JBoss BRMS 5.0 product.
+Just follow the instructions below for the first lab session and good luck!
+
+========================================================================
+Before you can run the software installed on your accounts you need to login
+on the Fedora Linux machines, reboot and choose Fedora from the boot menu if
+you are in Windows.
+
+1) Start the JBoss BRMS server:
+
+ - brms_lab/jboss-eap-4.3/jboss-as/bin/run.sh
+
+2) Login to JBoss BRMS at: 
+
+ - http://localhost:8080/jboss-brms 
+ - user: admin
+ - pass: admin
+ - accept and install sample repository when asked.
+
+3) Create a new knowledge base:
+
+ - Knowledge Bases -> Create New -> Package
+ - name the package 'insurance'
+
+4) Create a new category
+
+ - Administration -> Category -> New Category
+ - add 'insurance' 
+
+5) Create two new facts in the insurance package:
+
+ - Knowledge Bases -> Create New -> Declarative Model
+ - name the model 'InsuranceModel'
+ - add two facts to the model:
+   - Add new fact type -> 'Driver'
+     - add fields: driverName (String), age (Integer), ssn (String), dlNumber (String), 
+                   numberOfAccidents (Integer), numberOfTickets (Integer), 
+                   creditScore (Integer)
+   - Add new fact type -> 'Policy'
+     - add fields: requestDate (Date), policyType (String), vehicleYear (int), price (int)
+ - save changes
+
+6) Add business rules (don't forget to save changes):
+
+Rule "SafeYouths"
+
+If the driver age is between 18 and 24 and has no accidents and less than 2
+tickets, then a policy costs 450.
+
+Rule "RiskyYouths"
+
+If the driver age is between 18 and 24 and has no accidents or has 2 or more
+tickets, then a policy costs 700.
+
+Rule "SafeAdults"
+
+If the driver age is older than 24 and has no accidents and has less than 2
+tickets, then a policy costs 120.
+
+
+Rule "RiskyAdults"	
+
+If the driver age is older than 24 and has at least 1 accidents or has more
+than 2 tickets, then a policy costs 300.			
+
+6) Create tests for the above rules:
+
+ - Knowledge Bases -> insurance -> Test Scenarios -> Create New -> New Test Scenario
+
+Grade:
+=====
+I will require two screen shots; one of your rules (overview only of all
+rules) and one of the test suite run (showing green and coverage). I am
+looking for as much coverage you can achieve. Good luck!
+
+Eric D. Schabell
+erics@redhat.com

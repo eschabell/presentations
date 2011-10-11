@@ -1,0 +1,129 @@
+Oh yes, of course!
+
+
+Final questions for the course to get an idea on your general
+impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer:
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: Lost work, mostly due to changes not being persisted to the
+database and ambiguous error messages (i.e. when leaving the 'dialect
+mvel' bit out of a rule)
+
+
+3) Where is the biggest improvement that could be made?
+
+Answer: Rather than forcing a user to choose between a design based
+rule or a text based rule and making him stick to his decision, you
+could make these interchangeable 'views'. Much like a HTML designer or
+Visual Studio has a design and a code view.
+
+
+4) How was the documentation able to help?
+
+Answer: It was ok. Google was my friend during the assignment.
+
+
+5) Should their be self help, and what form would it take?
+
+Answer: Yes there should (but since I explicitly helped myself my
+opinion might be biased). Since this a popular and well developed
+product any capable individual should be able to install and use it on
+its own with the documentation provided.
+
+
+6) Did you use any of the testing features, how did you like them,
+what could be improved?
+
+
+Answer: This is a great feature and should definitely be part of any
+rule based system. Improvements? In Test Scenario's, any changes made
+AFTER running a test will not be saved (even when repeatedly pressing
+the Save button).
+
+ 7) What did you expect to be able to do that you couldn't? Answer: It's a
+nice feature that you can do Test Scenario's in a GUI, but a text based
+solution would be nice too. In other proofing tools I'm used to provide an
+initial set of facts like so:
+
+list(sos).
+
+  %Gerechten(naam_van_gerecht,[[naam_ingredient,benodigde_hoeveelheid],[naam_ingredient,benodigde_hoeveelheid]])
+  Gerecht(macaroni_met_ham_en_kaas,[[macaroni,100],[ham,100],[kaas,30],[tomatenpuree,50]],hoofdgerecht).
+  Gerecht(kaasmix,[[kaas,100]],voorgerecht).
+  Gerecht(bananensplit,[[banaan,50],[ijs,50],[slagroom,50]],nagerecht).
+  Gerecht(biefstuk_met_ui_en_bier,[[biefstuk,15],[bloem,50],[ui,100],[bier,180],[suiker,50]],hoofdgerecht).
+
+  % Voorraad(naam_ingredient, hoeveelheid_in_honderden_grams,
+kcal_per_honderd_gram)
+  Voorraad(aardappel, 10, 85).
+  Voorraad(banaan,3,200).
+  Voorraad(biefstuk, 10, 115).
+  Voorraad(bier, 10, 62).
+  Voorraad(bloem, 10, 333).
+  Voorraad(bouillon, 10, 5).
+  Voorraad(champignons, 10, 16).
+  Voorraad(ei, 10, 82).
+  Voorraad(ham,5,194).
+  Voorraad(ijs,5,184).
+  Voorraad(kaas,16,327).
+  Voorraad(kip, 10, 124).
+  Voorraad(knolvenkel, 10, 36).
+
+  % Caloriegrenzen per persoon
+  MinCalorieen(600).
+  MaxCalorieen(1200).
+
+  % Aantal gezinsleden
+  Gezin(4).
+end_of_list.
+
+8) What was the biggest source of frustration?
+
+Answer: Lost work, definitely!!
+
+
+
+Met vriendelijke groet,
+
+Martin Devillers
+
+
+2011/1/3 Eric D. Schabell <erics@redhat.com>
+
+> Hello Martin,
+>
+> Very nice, I have only the one last request if you could find time,
+> please pass me your answers on usage of JBoss BRMS system (questions)?
+>
+> Thanks much, happy new year!
+>
+> Regards, erics
+>
+> On Fri, Dec 24, 2010 at 07:06:15PM +0100, Martin Devillers wrote:
+> >    Hello Eric,
+> >    Enclosed are the results of part 3 of the JBoss BRMS Assignment for
+> >    Business Rules.
+> >    The two screenshots depict various facets of my package. Besides the
+> >    required model, rules and tests, I've also used some other
+> functionality:
+> >      * functions, that I used to define functions for doing basic date
+> >        arithmetic
+> >      * enumerations, for creating a more robust package
+> >    Last, but certainly not least, I've included the full DSL I've written
+> in
+> >    a text file.
+> >    With kind regards,
+> >
+> >    Martin Devillers
+>
+>
+>
+>
+>

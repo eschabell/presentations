@@ -1,0 +1,53 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer: I would make sure it would be more Robust: less errors, no server crashes. No missing repositories, no weird error messages that turn out to be unsupportedoperationexception in the terminal window. Encountering a lot of problems made the experience of working with it really unpleasant. 
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: There were certainly some big problems, however I do not know to which extent they were related to the installation. 
+- The repository sometimes did not restore from the previous time
+- At a certain point the whole server broke and after starting it up again could not get it to work again. 
+- At the end a problem appeared with accessing tests. Which I could not determine the cause off.
+All this made me do a lot of extra unnecessary work. 
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer: Improvement of the user interaction, making it smoother to work with. At the moment for example:
+- text boxes are left on the screen when changing from tab if they're not filled in. 
+- a tab is not reloaded when it is already opened and it is selected in the left menu. 
+- only with create new in the left menu can a new rule be made, not by selecting the business rules asset list. 
+- filling in a Boolean value has to be done by hand. 
+These are all things that can annoy the business people that software is intended for. 
+
+
+4) How was the documentation able to help?
+   
+Answer: On the internet I could find some useful documentation. They helped me a lot.Especially in text based rule creation and ISL. On forums I also found some solutions to problems, although not every problem had a satisfying answer, or remained basically unanswered. 
+
+
+5) Should their be self help, and what form would it take?
+   
+Answer: Instead of self help the error messages should be clearer and give the user some precise pointers where the problem is. At the moment most error messages are not clear enough. To solve any problem I often used trial and error instead of really having a clue what was actually wrong. 
+An error message as: "does not support method call is Allowed(Object object, InternalWorkingMemory workingMemoiry)" really gives me barely any information where to look for the problem. 
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer: Yes I have used the testing analysis and the QA tool. These were really helpful. However the QA tool was not always working so well, refer for this the earlier comment about robustness. 
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer: I would have expected the business rules that should be entered in the tool to represent the rulespeak form to a greater extent. At the moment things that should be done in rulespeak: like 'must' and 'may' do not come back in the software.  
+
+8) What was the biggest source of frustration?
+
+Answer: Besides the errors popping up, the fact that there were a lot of things in it that simply do not make sense at the beginning. (certainly not to the business users)
+and are things one ought to know before using it. 
+examples of this are: 
+- The extra enter on the end of a DSL
+- Putting the right dialect
+
+Furthermore in long LHS parts of a rule, a mistake sometimes leads to the user needing to remove the entire line, instead of just the small part.  

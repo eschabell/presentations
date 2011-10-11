@@ -1,0 +1,42 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer: Auto save or at least it should notify me if am about to close unsaved tabs. 
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer: It doesn't warn me if I close tabs that I haven't saved. By all means this could be a hassle especially when you are managing thousand rules and sometime open more than 10 tabs at the same time and somehow you've lost tracks whether you have saved the work on each tab.
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer: Assume that I am opening the Model tab and one of rules. I edited types in the Model and saved it, but the changes couldn't be seen immidiately from the rule I am opening unless I close the rule and open it again.
+
+
+4) How was the documentation able to help?
+   
+Answer: I didn't look to much for the documentation, but I presume it's documented well.
+
+
+5) Should their be self help, and what form would it take?
+   
+Answer: 
+
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer: Yes, the testing feature is awesome! It couldn't be better.
+
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer: I expected to do the aforementioned thing in point #3 but I couldn't.
+
+
+8) What was the biggest source of frustration?
+
+Answer: The biggest source of frustration is my answer on point #2
+

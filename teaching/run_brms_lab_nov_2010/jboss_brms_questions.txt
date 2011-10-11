@@ -1,0 +1,42 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer:
+
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer:
+
+
+3) Where is the biggest improvement that could be made?
+   
+Answer:
+
+
+4) How was the documentation able to help?
+   
+Answer:
+
+
+5) Should their be self help, and what form would it take?
+   
+Answer:
+
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer:
+
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer:
+
+
+8) What was the biggest source of frustration?
+
+Answer:
+

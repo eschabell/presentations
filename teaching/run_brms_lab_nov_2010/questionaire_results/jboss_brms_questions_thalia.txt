@@ -1,0 +1,43 @@
+Final questions for the course to get an idea on your general impressions of the JBoss BRMS tooling:
+====================================================================================================
+
+1) What is the one thing you would change about the tool?
+
+Answer:
+When writing DSL, the code was getting successfully validated, even in cases it was not absolutely correct (e.g. extra line). This, was later leading to problems when creating and testing the rules.
+So, i think that especially in DSL cases, validation should take into consideration such issues.
+
+2) What or where was the biggest problem you had when using the tool?
+
+Answer:
+Validation of rules and models sometimes was not successful, and after deleting and recreating exactly the same rules/models it could be successfully validated.
+
+3) Where is the biggest improvement that could be made?
+   
+Answer:
+More detailed validation of the DSL schema. In case of syntax error a brief description should immediately be provided, instead of the  'Contact Administrator' message when running the test scenarios.
+
+4) How was the documentation able to help?
+   
+Answer:
+Documentation was quite helpful(especially screenshots), though, it was not mentioning the problems that arised.
+
+5) Should their be self help, and what form would it take?
+   
+Answer:
+A forum could be helpful in solving problems and exchanging opinions.
+
+6) Did you use any of the testing features, how did you like them, what could be improved?
+
+Answer:
+Yes, we made use of the test scenarios. It was quite easy to understand how they work.
+
+7) What did you expect to be able to do that you couldn't?
+
+Answer:
+To delete rule and test scenarios more easily (e.g select it and press the delete button). Not having to archive them and then delete them from the administration section.
+ 
+8) What was the biggest source of frustration?
+
+Answer:
+Having to find out why the 'Contact Administrator' message was appearing when running the test scenarios as well as trying to figure out what was meant by the warning descriptions in the QA analysis section.

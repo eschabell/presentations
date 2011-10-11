@@ -1,0 +1,94 @@
+Welcome, you should have a folder brms_lab in your home directory that contains
+a JBoss EAP 4.3.0 installation already prepared with the JBoss BRMS 5.0 product.
+Just follow the instructions below for the lab session and good luck!
+
+========================================================================
+Before you can run the software installed on your accounts you need to login
+on the Fedora Linux machines, reboot and choose Fedora from the boot menu if
+you are in Windows.
+
+1) Start the JBoss BRMS server:
+
+ - brms_lab/jboss-eap-4.3/jboss-as/bin/run.sh
+
+2) Login to JBoss BRMS at: 
+
+ - http://localhost:8080/jboss-brms 
+ - user: admin
+ - pass: admin
+
+3) You should alread have completed lab 1, with an Insurance package of rules
+and tests. Sometime during this lab you need to let me examine your rules,
+test suite and demo the code coverage / QA check. This will allow me to grade
+your lab1 results.
+
+4) Today we are going to make use of the rule editor to create a Domain
+Specific Language (DSL) and use this to create new rules, extending the
+Insurance rule package. First we need to create a new DSL:
+
+  - Knowledge Base -> Create New -> New DSL
+  - name this Acme DSL
+  - you now have a template that you can use to fill in the following DSL
+    definition (don't forget to save it!):
+
+[when][$driver]There is a Driver=$driver : Driver()
+[when][$driver]- age less than {age} years old=age < {age}
+[when][$driver]- age greater than {age} years old=age > {age}
+[when][$driver]- has had more than {number} number of
+accidents=numberOfAccidents > {number}
+[when][$driver]- age is at least {age}=age >= {age}
+[when][$driver]- age is between {lower} and {upper} years old=age >= {lower},
+age <= {upper}
+[when][$driver]- has had exactly {number} number of
+accidents=numberOfAccidents == {number}
+[when][$driver]- has more than {number} number of tickets=numberOfTickets >
+{number}
+[when][$driver]- has less than or equal to {number} number of
+tickets=numberOfTickets <= {number}
+[when][$policy]There is a Policy=$policy : Policy()
+[when][$policy]- policy has a driver {driver}=driver == $driver
+[when][$policy]- policy type is '{type}'=type ==  "{type}")
+[when][$policy]- vehicle year is greater than {year}=vehicleYear > {year}
+[when][$policy]- price is greater than {amount}=price > {amount}
+[then][]Reject Policy with explanation : '{reason}'=insert(new
+Rejection("{reason}"));
+[when][]Policy has not been rejected=not Rejection()
+[then][]logRule=System.out.println("the rule that executed is: " +
+drools.getRule());
+[then][$policy]Add surcharge {surcharge} to Policy=modify($policy) \{price =
+$policy.price + {surcharge}\}
+
+5) Create the following new business rule using the 'DSL Business Rule (Text Editor)':
+
+Rule "AccidentSurcharge"
+
+If the driver has more than 2 accidents and there is a policy with a price
+above 0, then raise the price with a 200 surcharge.
+ 
+6) This last rule creation with the DSL text editor might have been a bit
+painful to you Business Analysts? Therefore we will get you back into your
+compfort zone with the 'Business Rule (Guided Editor)' for these rules:
+
+Rule "NoviceDriverSurcharge"
+
+If the driver is younger than 19 and there is a policy with a price above 0,
+then add 250 surcharge to the poliy price.
+
+Rule "NewerVehicleSurcharge"
+
+If the vehicle is from the year 2004 or newer and there is a policy with a
+price above 0, then add 100 surcharge to the policy price.
+
+6) Create tests for the above rules:
+
+ - Knowledge Bases -> insurance -> Test Scenarios -> Create New -> New Test Scenario
+
+Grade:
+=====
+I will require three screen shots; one of your rules (overview only of all
+rules), one of the QA tab analysis output and one of the test suite run
+(showing green and coverage). I am looking for as much coverage you can
+achieve. Good luck!  
+
+Eric D. Schabell
+erics@redhat.com
