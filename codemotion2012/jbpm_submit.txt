@@ -1,0 +1,10 @@
+JBoss Brings More Power to your Business Processes
+
+A lot has happened in the Business Process Management area over the last few years, with the intro of the BPMN 2.0 standard, the
+increasing interest in more dynamic and adaptive processes, integration with business rules and event processing, case management,
+etc. In this session, we will show you how JBoss jBPM tackles these challenges, discuss migration to this new platform and give an
+overview of its most important features.
+
+Notes:
+Speaker has been evangelizing OpenShift throughout Europe over the last year, speaking in Belgium, Luxembourg, UK and Germany on the
+topic at both large conferences and smaller User Group meetings.
